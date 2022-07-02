@@ -186,8 +186,60 @@ img {
   text-align: start;
   color: #fff;
   width: 80%;
-  height: 50%;
+  height: 30%;
 }
+
+.Contact {
+  height: 100%;
+  width: 100%;
+  background-image: url(../img/vintage-wallpaper.png);
+}
+
+.Contact__container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding-bottom: 1rem;
+  width: 100%;
+}
+
+.Contact__title {
+  color: #fff;
+  margin-top: 0rem;
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 3rem;
+}
+
+.Contact__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.Contact__item h3 {
+  text-align: left;
+  font-style: italic;
+  width: 80%;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.Contact__item a {
+  margin-bottom: 2rem;
+  text-align: left;
+  color: #fff;
+  width: 80%;
+  height: 20%;
+
+}
+
+
+
+
 
 @media (min-width: 641px) {
   .skill-item span{
@@ -200,7 +252,20 @@ img {
   .skills__container {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: 20vw 20vw 20vw;
+    display: flex;
+    flex-direction: column;
   }
+
+  .Contact__container {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 10vw 10vw 10vw;
+    display: flex;
+    flex-direction: column;
+  }
+
+
+
+
   .hero {
     display: flex;
     flex-direction: wrap column;
@@ -248,9 +313,6 @@ img {
   .hero__social i {
     font-size: 20px;
   }
-  .skills__container {
-    display: flex;
-    flex-direction: column;
-  }
+
 
 }
