@@ -25,6 +25,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  background-image: url(../img/vintage-wallpaper.png);
 }
 
 .hero__navbar nav{
@@ -50,8 +51,7 @@ img {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-image: url('https://cdn.pixabay.com/photo/2018/09/16/22/08/software-3682509_1280.jpg');
-  background-size: cover;
+  background-image: url(../img/px_by_Gre3g.png);
 }
 
 .hero__img-container {
@@ -65,6 +65,7 @@ img {
   width: 100%;
   height: 100%;
   border: 15px double darkcyan;
+  box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
   border-radius: 50%;
   margin-top: 1rem;
 }
@@ -95,6 +96,7 @@ img {
   display: flex;
   gap: 1.5rem;
   justify-content: center;
+  margin-top: 1.5rem;
   margin-bottom: 1.5rem;
 }
 
@@ -109,13 +111,14 @@ img {
 }
 
 .wrapper {
-  max-width: 1024px;
+  max-width: 100vw;
   margin: 0 auto;
 }
 
 .about {
   padding: 5rem 20px;
   text-align: center;
+  background-image: url(../img/vintage-wallpaper.png);
 }
 
 .about__title {
