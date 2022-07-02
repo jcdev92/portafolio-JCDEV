@@ -263,25 +263,28 @@ img {
     flex-direction: column;
   }
 
-
-
-
   .hero {
     display: flex;
-    flex-direction: wrap column;
+    flex-direction: column;
     background-image: url(../img/px_by_Gre3g.png);
   }
 
   .hero__info {
     height: 100%;
-    width: 100%;
+    width: 70%;
   }
   .hero__title,
   .hero__subtitle {
     font-size: 15px;
   }
 
+  .hero__img-container {
+    width: 150px;
+    height: 150px;
+  }
+
   .hero__navbar {
+    display: none;
     width: 25%;
     height: 100vw;
     align-items: flex-start;
@@ -291,7 +294,7 @@ img {
   }
 
 
-  .hero__navbar nav{
+  .hero__navbar nav {
     padding: 1rem;
     margin-top: 1rem;
     margin-left: 2rem;
