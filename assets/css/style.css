@@ -116,7 +116,7 @@ img {
 }
 
 .about {
-  padding: 5rem 20px;
+  padding: 1.5rem 20px;
   text-align: center;
   background-image: url(../img/vintage-wallpaper.png);
 }
@@ -127,32 +127,43 @@ img {
 }
 
 .skills {
-  padding: 5rem 20px;
+  height: 100%;
+  width: 100%;
+  background-image: url(../img/px_by_Gre3g.png);
 }
+
 
 .skills__title {
   color: #fff;
+  margin-top: 0rem;
   font-size: 2rem;
   text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
 }
 
 .skills__container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 200px 200px;
+  grid-template-rows: 20vw 20vw;
+  border: 1px solid #fff;
+  height: 100%;
 }
 
 .skill-item {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1rem;
+  height: 100%;
+  width: 100%;
+  gap: 0rem;
+  border: 1px solid #fff;
+  
 }
 
 .skill-item i {
   width: 100px;
   height: 100px;
-  border-radius: 50%;
   background-color: #1c1616;
   color: #fff;
   font-size: 2.5rem;
@@ -161,8 +172,18 @@ img {
   align-items: center;
 }
 
+.skill-item h3 {
+  margin: 25px;
+}
+
 .skill-item span {
+  border: 1px solid #fff;
+  width: 200px;
+  margin-bottom: 1rem;
+  text-align: start;
   color: #fff;
+  width: 80%;
+  height: 50%;
 }
 
 
@@ -218,6 +239,9 @@ img {
   .hero__social i {
     font-size: 20px;
   }
-
+  .skills__container {
+    display: flex;
+    flex-direction: column;
+  }
 
 }
