@@ -79,21 +79,20 @@ img {
   width: 450px;
 }
 
+
+.about__title,
+.skills__title,
+.Contact__title,
 .hero__title,
 .hero__subtitle {
   margin-top: 1rem;
   margin-bottom: 1rem;
-}
-
-.hero__title {
   color: #fff;
   text-shadow: 6px 6px 6px rgb(5, 2, 2);
 }
 
 .hero__subtitle {
-  color: #fff;
   font-size: clamp(30px, 3.5vw, 45px);
-  text-shadow: 6px 6px 6px rgb(5, 2, 2);
 }
 
 .hero__social {
@@ -120,7 +119,7 @@ img {
   background: #134E5E;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #71B280, #134E5E);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #71B280, #134E5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  
+  color: white;
 }
 
 .about {
@@ -136,7 +135,8 @@ img {
 
 .skills {
   height: 100%;
-  width: 100%
+  width: 100%;
+ background: linear-gradient(to top left, #24243e, #302b63, #0f0c29);
 }
 
 
