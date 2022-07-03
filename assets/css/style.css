@@ -237,7 +237,9 @@ img {
 
 }
 
-
+.section[id] {
+  margin-top: 70px;
+}
 
 
 
