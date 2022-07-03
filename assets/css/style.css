@@ -295,7 +295,6 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url(../img/px_by_Gre3g.png);
   }
 
   .hero__info {
