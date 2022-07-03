@@ -28,7 +28,6 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* background-image: url(../img/vintage-wallpaper.png); */
 }
 
 .hero__navbar nav{
@@ -80,6 +79,22 @@ img {
 }
 
 
+
+.hero,
+.wrapper {
+  border-left: 5px ridge darkcyan;
+  border-right: 5px ridge darkcyan;
+}
+
+.about,
+.Contact,
+.skills,
+.hero {
+  border-bottom: 5px ridge darkcyan;
+}
+
+
+
 .about__title,
 .skills__title,
 .Contact__title,
@@ -122,10 +137,11 @@ img {
   color: white;
 }
 
+
+
 .about {
   padding: 1.5rem 20px;
   text-align: center;
-
 }
 
 .about__title {
@@ -133,10 +149,21 @@ img {
   font-size: 2rem;
 }
 
+.skill-item,
+.about__text {
+  font-size: clamp(8px, 3.5vw, 20px);
+  line-height: 1.5;
+  color: white;
+  text-align: justify;
+  text-shadow: 3px 3px 3px rgb(5, 2, 2);
+  padding: 3rem;
+}
+
 .skills {
   height: 100%;
   width: 100%;
- background: linear-gradient(to top left, #24243e, #302b63, #0f0c29);
+  background: linear-gradient(to top left, #24243e, #302b63, #0f0c29);
+  border-radius: 0px;
 }
 
 
@@ -153,7 +180,6 @@ img {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 20vw 20vw;
-  border: 1px solid #fff;
   height: 100%;
 }
 
@@ -164,8 +190,6 @@ img {
   height: 100%;
   width: 100%;
   gap: 0rem;
-  border: 1px solid #fff;
-  
 }
 
 /* .skill-item i {
@@ -185,9 +209,7 @@ img {
 }
 
 .skill-item span {
-  border: 1px solid #fff;
-  width: 200px;
-  margin-bottom: 1rem;
+  font-size: clamp(12px, 3.5vw, 18px);
   text-align: start;
   color: #fff;
   width: 80%;
