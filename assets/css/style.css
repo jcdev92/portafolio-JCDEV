@@ -141,7 +141,9 @@ img {
 }
 
 .about {
-  padding: 1.5rem 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
 }
 
@@ -150,16 +152,20 @@ img {
   font-size: 2rem;
 }
 
-.skill-item a,
 .about__text {
-  font-size: clamp(8px, 3.5vw, 20px);
+  background-color: rgba(255, 255, 255, 0.8);
   line-height: 1.5;
-  color: white;
-  text-align: justify;
-  text-shadow: 2px 2px 2px rgb(5, 2, 2);
+  color: black;
   padding: 3rem;
   text-decoration: none;
+  font-size: clamp(5px, 3vw, 18px);
+  font-weight: bold;
+  text-align: justify;
+  width: 70%;
+  margin-bottom: 4rem;
+  box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
 }
+
 
 .skills {
   height: 100%;
@@ -183,14 +189,16 @@ img {
   height: 100%;
   padding: 0;
   margin-bottom: 2rem;
+  align-items: center;
+  justify-items: center;
 }
 
 .skill-item {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 100%;
-  width: 100%;
+  height: 80%;
+  width: 80%;
   gap: 0rem;
 }
 
@@ -207,23 +215,36 @@ img {
 */
 
 .skill-item a {
-  margin: 25px;
+  margin: 0px;
+  padding: 20px;
   margin-bottom: 0;
+  width: 80%;
+  border: 1px solid #ccc;
+  background-color: rgba(100, 100, 155, 0.5);
+  font-weight: bold;
+  color: white;
+  box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+  text-align: center;
 }
 
 .skill-item p {
-  font-size: clamp(10px, 3vw, 16px);
+  font-size: clamp(12px, 3vw, 18px);
   text-align: justify;
   color: #fff;
-  width: 55%;
+  width: 80%;
   max-height: 0;
   overflow: hidden;
-  margin-top: 0;
   transition: all .3s ease-in-out;
+  border: 1px solid #ccc;
+  box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+  margin: 0px;
+  color: black;
+  background-color: white;
 }
 
-div:target p{
+div:target p {
   max-height: 120px;
+  padding: 10px;
 }
 
 .Contact {
@@ -294,6 +315,11 @@ div:target p{
     display: flex;
     flex-direction: column;
   }
+
+  .skill-item {
+    margin-bottom: 30px;
+  }
+
 
   .Contact__container {
     grid-template-columns: repeat(1, 1fr);
