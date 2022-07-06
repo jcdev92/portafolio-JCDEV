@@ -133,15 +133,15 @@ img {
 }
 .Contact__title,
 .about__title {
-  color: rgb(10,20,80);
   font-weight: bold;
   font-size: 2rem;
   margin: 4rem;
-  text-shadow: 3px 3px 3px rgb(10,20,80);
+  color: #302b63;
+  text-shadow: 3px 3px 3px rgb(10,20,80,0.5);
 }
 
 .about__text {
-  background: rgba(0, 0, 85);
+  background: #302b63;
   line-height: 2;
   text-shadow: 2px 2px 3px rgb(5, 2, 2);
   padding: 4rem;
@@ -270,7 +270,7 @@ div:target p {
   align-items: center;
   height: 100%;
   width: 100%;
-  text-shadow: 2px 2px 2px rgb(5, 2, 2);
+  
 }
 
 .Contact__item h3 {
@@ -278,13 +278,14 @@ div:target p {
   font-style: italic;
   width: 80%;
   margin-bottom: 1rem;
-  color: #fff;
+  color: #302b63;
+  text-shadow: 3px 3px 3px rgb(10,20,80,0.5);
 }
 
 .Contact__item a {
   margin-bottom: 2rem;
   text-align: left;
-  color: #fff;
+  color: black;
   width: 80%;
   height: 20%;
   font-size: auto;
@@ -293,7 +294,6 @@ div:target p {
 .section[id] {
   margin-top: 70px;
 }
-
 
 
 @media (min-width: 641px) {
