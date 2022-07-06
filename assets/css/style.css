@@ -1,9 +1,5 @@
-html {
-  font-size: 16px;
-  box-sizing: border-box;
-  scroll-behavior: smooth;
-}
 
+<<<<<<< HEAD
 *, *::before, *::after {
   box-sizing: inherit;
 }
@@ -220,6 +216,8 @@ img {
   box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
   text-align: center;
   text-decoration: none;
+=======
+>>>>>>> origin/master
 }
 
 .skill-item p {
