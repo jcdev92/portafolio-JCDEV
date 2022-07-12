@@ -555,6 +555,11 @@ form textarea {
   .main div p {
     display: none;
   }
+
+  .about {
+    height: 100vh;
+  }
+  
   .about-info {
     font-size: clamp(6px, 3vw, 18px);
   }
