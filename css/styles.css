@@ -351,7 +351,7 @@ div:target p {
   display: flex;
   border: 1px solid #ccc;
   box-shadow: 5px 5px 12px rgba(5, 5, 5, 0.10);
-  height: auto;
+  height: 100%;
 }
 
 .contact-headings h2 {
@@ -361,29 +361,54 @@ div:target p {
 }
 
 .contact-info-left {
-  padding: 2em;
+  padding-top: 2em;
   margin-left: 3em;
 }
 
 .contact-info-right h3, 
 .contact-info-left h3 {
   color: rgba(15,15,85,0.8);
+  font-size: 1.6em;
+  text-shadow: 2px 2px 2px rgba(15,15,85,0.4);
 }
 .contact-info-left p{
   width: 75%;
   text-align: justify;
+  margin-top: 1em;
   padding-top: 1em;
   padding-bottom: 1em;
   color: rgba(15,15,85,0.8);
   font-size: 1.4em;
   font-weight: 500;
-  text-shadow: 1px 1px 1px rgba(0,0,0,0.);
 }
 
 .contact-info-right {
   padding: 2em;
   margin-right: 3em;
   width: 70%;
+}
+.contact-icons {
+  display: flex;
+  margin-top: 5em;
+  align-items: center;
+  justify-content: space-around;
+  width: 80%;
+}
+.contact-icons a{
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+}
+
+.contact-icons a i {
+  font-size: 2.5em;
+  color: rgba(15,15,85,0.8);
+  text-shadow: 2px 2px 2px rgba(15,15,85,0.4);
+}
+
+.contact-icons a:hover i {
+  color: yellow;
+  text-shadow: 2px 2px 2px rgba(15,15,85,0.4);
 }
 
 
@@ -736,6 +761,18 @@ s
 
   .btn-submit {
     width: 30vw;
+  }
+
+
+  .contact-icons{
+    margin-bottom: 3em;
+    justify-content: space-between;
+    width: 95%;
+    align-items: center;
+  }
+
+  .contact-icons i {
+    font-size: 0.6em;
   }
   
 };
