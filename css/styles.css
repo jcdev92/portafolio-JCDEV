@@ -79,6 +79,7 @@ body {
 
 .info h1 {
   font-size: 3em;
+  text-shadow: 2px 2px 2px rgba(0,0,0,0.8);
 }
 
 .info span {
@@ -90,6 +91,7 @@ body {
   text-align: justify;
   margin-top: 1em;
   margin-bottom: 1em;
+  font-weight: 500;
 }
 
 .buttoms {
@@ -146,6 +148,7 @@ body {
 .about-info h2 {
   font-size: 2em;
   color: rgba(15,15,85,0.8);
+  text-shadow: 2px 2px 2px rgba(15,15,85,0.4);
 }
 
 .divider {
@@ -158,10 +161,12 @@ body {
 
 .about-info p {
   font-size: 1.2em;
+  font-weight: 500;
   text-align: justify;
   margin-top: 1em;
   margin-bottom: 1em;
   width: 90%;
+  font-weight: 500;
 }
 
 .skills {
@@ -173,6 +178,7 @@ body {
 .skills__title {
   padding: 2.5em;
   padding-bottom: 0;
+  text-shadow: 2px 2px 2px rgba(0,0,0,0.8);
 }
 
 .skills__container {
@@ -211,8 +217,7 @@ body {
   margin: 0px;
   padding: 20px;
   margin-bottom: 0;
-  width: 80%;
-  border: 1px solid #ccc;
+  width: 60%;
   background-color: rgba(100, 100, 155, 0.5);
   font-weight: bold;
   color: white;
@@ -225,7 +230,7 @@ body {
   font-size: clamp(12px, 3vw, 18px);
   text-align: justify;
   color: #fff;
-  width: 80%;
+  width: 63%;
   max-height: 0;
   overflow: hidden;
   transition: all .3s ease-in-out;
@@ -233,6 +238,8 @@ body {
   box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
   color: black;
   background-color: white;
+  font-weight: 500;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
 }
 
 .skill-item a:hover {
@@ -250,8 +257,13 @@ div:target p {
   padding: 4em 0em 4em 4em;
 }
 
-.portfolio-headings h2, .contact-headings h2, .skills__title {
+.portfolio-headings h2, .contact-headings h2, .skills__title, .about-info h2 {
   font-size: 2.5em;
+}
+
+.portfolio-headings h2 {
+  color: #fff;
+  text-shadow: 2px 2px 2px rgba(0,0,0,0.8);
 }
 
 
@@ -344,6 +356,8 @@ div:target p {
 
 .contact-headings h2 {
   font-size: 3em;
+  color: rgba(15,15,85,0.8);
+  text-shadow: 2px 2px 2px rgba(15,15,85,0.4);
 }
 
 .contact-info-left {
@@ -362,6 +376,8 @@ div:target p {
   padding-bottom: 1em;
   color: rgba(15,15,85,0.8);
   font-size: 1.4em;
+  font-weight: 500;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.);
 }
 
 .contact-info-right {
