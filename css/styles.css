@@ -94,15 +94,20 @@ body {
   font-weight: 500;
 }
 
+
+.readmoreless {
+  font-weight: bolder;
+}
+
 .buttoms {
   padding: 10px 20px;
   background-color: aqua;
-  border-none: none;
   border-radius: 20px;
   margin-top: 10px;
   cursor: pointer;
   box-shadow: 1px 3px 11px -5px rgba(102, 231, 200, 0.69);
   border: none;
+  text-decoration: none;
 }
 
 .buttoms:hover {
