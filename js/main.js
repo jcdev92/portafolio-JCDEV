@@ -34,7 +34,7 @@ form.addEventListener('submit', (e) => {
     e.preventDefault();
     const input = e.currentTarget.elements
     const myemail = 'jcdeveloper92@gmail.com'
-    const URL_BASE = `https://formspree.io/ajax/${myemail}`
+    const URL_BASE = `https://formsubmit.co/ajax/${myemail}`;
     
     const dataForm = {
         name: input.name.value,
@@ -49,7 +49,7 @@ form.addEventListener('submit', (e) => {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
-                'Accept': 'application/json'
+                'Accept': 'application/json',
             },
             body: JSON.stringify(dataForm)
             })
