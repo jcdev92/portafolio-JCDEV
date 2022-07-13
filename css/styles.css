@@ -178,6 +178,7 @@ body {
   height: 100%;
   width: 100%;
   border-radius: 0px;
+  margin-bottom: 4em;
 }
 
 .skills__title {
@@ -187,23 +188,24 @@ body {
 }
 
 .skills__container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 20vw 20vw;
+  display: flex;
+  flex-flow: row wrap;
   height: 100%;
-  padding: 0;
-  margin-bottom: 2rem;
+  width: auto;
   align-items: center;
-  justify-items: center;
+  justify-content: space-around;
+  padding-bottom: 5em;
 }
 
 .skill-item {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 80%;
-  width: 80%;
+  height: 50%;
+  width: 50%;
   gap: 0rem;
+  padding-top: 1em;
+  padding-bottom: 3em;
 }
 
 /* .skill-item i {
@@ -516,9 +518,9 @@ form textarea {
   .container {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    height: 400vh;
+    height: 300vh;
   }
 
   .portfolio {
@@ -528,7 +530,7 @@ form textarea {
   }
 
   .portfolio-headings {
-    margin: 3em;
+    padding: 5em;
   }
 
   .info p {
@@ -612,15 +614,11 @@ form textarea {
   }
   
   .skills__container {
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: 20vw 20vw 20vw;
     display: flex;
+    
     flex-direction: column;
   }
 
-  .skill-item {
-    margin-bottom: 30px;
-  }
 
 
   .container {
@@ -651,16 +649,23 @@ form textarea {
     display: flex;
     justify-content: center;
   }
-
-  .portfolio-headings {
+  .skills {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0;
-    margin: 0;
-    margin-top: 4em;
-    margin-bottom: 3em;
+    justify-content: center;
+    width: 100%;
   }
+  .skills__title {
+    padding-top: 2em;
+  }
+
+  .portfolio-headings {
+    padding: 4em;
+    width: auto;
+  }
+
+
   .card {
     margin-bottom: 2em;
   }
