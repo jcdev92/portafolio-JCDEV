@@ -526,7 +526,7 @@ form textarea {
   .portfolio {
     display: flex;
     flex-direction: column;
-    height: 400vh;
+    height: 230vh;
   }
 
   .portfolio-headings {
