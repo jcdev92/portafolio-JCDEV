@@ -26,7 +26,10 @@ let expandText = () => {
 btnText.addEventListener('click', expandText);
 
 
+
 /* form validation */
+
+
 
 const form = document.getElementById('form');
 
@@ -62,3 +65,20 @@ form.addEventListener('submit', (e) => {
         e.currentTarget.reset();
     }
 });
+
+
+/* navbar activation */
+
+const nav = document.querySelector('.navbar');
+const check = document.querySelector('.nav-toggle');
+
+const display = () => {
+    if (check.checked) {
+        nav.style.display = 'flex';
+    } else {
+        nav.style.display = 'none';
+    }
+}
+
+
+check.addEventListener('click', display);
