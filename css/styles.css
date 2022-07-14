@@ -191,7 +191,7 @@ body {
   display: flex;
   flex-flow: row wrap;
   height: 100%;
-  width: auto;
+  width: 100%;
   align-items: center;
   justify-content: space-around;
   padding-bottom: 5em;
@@ -526,7 +526,7 @@ form textarea {
   .portfolio {
     display: flex;
     flex-direction: column;
-    height: 230vh;
+    height: 250vh;
   }
 
   .portfolio-headings {
@@ -585,6 +585,7 @@ form textarea {
     height: 100vh;
     gap: 0;
   }
+
 
 
   .main a {
@@ -742,6 +743,10 @@ s
     align-items: center;
   }
 
+  .skill-item a {
+    font-size: 0.8em;
+  }
+
   .about-info {
     font-size: 8.5px
   }
@@ -783,6 +788,10 @@ s
 
   .contact-icons i {
     font-size: 0.6em;
+  }
+
+  .footer h2 {
+    font-size: 1em;
   }
   
 };
