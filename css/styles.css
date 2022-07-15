@@ -377,16 +377,16 @@ div:target p {
   color: rgba(15,15,85,0.8);
   font-size: 1.6em;
   text-shadow: 2px 2px 2px rgba(15,15,85,0.4);
+  padding-top: 2em;
 }
+
 .contact-info-left p{
-  width: 75%;
+  width: 60%;
+  height: auto;
   text-align: justify;
-  margin-top: 1em;
-  padding-top: 1em;
-  padding-bottom: 1em;
+  padding: 2.5em;
   color: rgba(15,15,85,0.8);
-  font-size: 1.4em;
-  font-weight: 500;
+  font-size: 1.2em;
 }
 
 .contact-info-right {
@@ -396,7 +396,7 @@ div:target p {
 }
 .contact-icons {
   display: flex;
-  margin-top: 5em;
+  margin-top: 2em;
   align-items: center;
   justify-content: space-around;
   width: 80%;
@@ -821,7 +821,15 @@ s
     width: 30vw;
   }
 
+  .contact-info-right {
+    margin: 0;
+    padding: 0;
+  }
 
+  .contact-info-left p {
+    padding: 0;
+    padding-top: 1em;
+  }
   .contact-icons{
     margin-bottom: 3em;
     justify-content: space-between;
