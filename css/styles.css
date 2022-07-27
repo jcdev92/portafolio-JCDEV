@@ -293,10 +293,22 @@ div:target p {
 }
 
 .card__img {
-  width: 25vw;
-  height: 30vh;
-  background-image: url('https://images.unsplash.com/photo-1542903660-eedba2cda473?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
+  width: 22vw;
+  height: 35vh;
+  border-radius: 10px;
   background-size: cover;
+}
+
+.card__img--1 {
+  background-image: url('/img/randomquote.jpg');
+}
+
+.card__img--2 {
+  background-image: url('/img/craduserrand.jpg');
+}
+
+.card__img--3 {
+  background-image: url('/img/LogoMakerCa-1643467059960.png');
 }
 
 .card__title {
