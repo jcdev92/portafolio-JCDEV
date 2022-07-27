@@ -295,7 +295,7 @@ div:target p {
 .card__img {
   width: 22vw;
   height: 35vh;
-  border-radius: 10px;
+  border-radius: 5px;
   background-size: cover;
 }
 
