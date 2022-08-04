@@ -300,15 +300,15 @@ div:target p {
 }
 
 .card__img--1 {
-  background-image: url('/img/randomquote.jpg');
+  background-image: url('/Assets/img/randomquote.jpg');
 }
 
 .card__img--2 {
-  background-image: url('/img/craduserrand.jpg');
+  background-image: url('/Assets/img/craduserrand.jpg');
 }
 
 .card__img--3 {
-  background-image: url('/img/LogoMakerCa-1643467059960.png');
+  background-image: url('/Assets/img/LogoMakerCa-1643467059960.png');
 }
 
 .card__title {
