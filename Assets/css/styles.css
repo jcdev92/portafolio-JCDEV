@@ -132,14 +132,14 @@ body {
   position: relative;
 }
 
-.image:hover .face.front{
-  transform: rotateX(180deg);
-  transition: all 0.8s;
+.image:hover {
+  transform: scale(1.2);
+  box-shadow: none;
 }
 
 .image:hover .face.back{
   transform: none;
-  transition: all 0.2s;
+  transition: all 0.4s;
 }
 
 .face {
@@ -158,11 +158,22 @@ body {
 
 
 .face.back {
-  background-color: rgba(255,255,255);
+  background-color: rgba(225,55,1);
+  color: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
+  line-height:35px;
   transform: rotateX(180deg);
+}
+
+.back a {
+  color: #fff;
+  text-decoration: none;
+  text-shadow: 4px 4px 10px black;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 1.5em;
 }
 
 
