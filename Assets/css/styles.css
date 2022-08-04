@@ -134,6 +134,7 @@ body {
 
 .image:hover {
   transform: scale(1.2);
+  transition: all 0.4s;
   box-shadow: none;
 }
 
