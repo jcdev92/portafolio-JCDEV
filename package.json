@@ -1,0 +1,24 @@
+{
+  "name": "portfolio-jcdev",
+  "version": "1.0.0",
+  "description": "this is my developer full stack portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcdev92/portafolio-JCDEV.git"
+  },
+  "author": "JC DEV",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jcdev92/portafolio-JCDEV/issues"
+  },
+  "homepage": "https://github.com/jcdev92/portafolio-JCDEV#readme",
+  "dependencies": {
+    "modules": "^0.4.0",
+    "scrollreveal": "^4.0.9"
+  }
+}

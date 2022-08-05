@@ -82,3 +82,38 @@ const display = () => {
 
 
 check.addEventListener('click', display);
+
+
+// /* scroll skills to left */
+
+ScrollReveal().reveal('.about', {
+    duration: 2000,
+    origin: 'left',
+    distance: '500px',
+    delay: 500,
+})
+
+ScrollReveal().reveal('.skills', {
+    duration: 2000,
+    origin: 'right',
+    distance: '500px',
+    delay: 100,
+})
+
+ScrollReveal().reveal('.portfolio', {
+    duration: 2000,
+    origin: 'bottom',
+    distance: '500px',
+    delay: 100,
+})
+
+ScrollReveal().reveal('.contact', {
+    duration: 2000,
+    origin: 'top',
+    distance: '500px',
+    delay: 100,
+})
+
+
+
+
