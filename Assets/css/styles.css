@@ -634,6 +634,8 @@ form textarea {
 
   .nav-toggle, .nav-toggle-label {
     display: flex;
+    position: fixed;
+    z-index: 1;
   }
 
   .navbar {
@@ -644,6 +646,7 @@ form textarea {
     margin-top: 0;
     padding-top: 0;
     position: fixed;
+    z-index: 1;
   }
   
   .nav-toggle-label i {
