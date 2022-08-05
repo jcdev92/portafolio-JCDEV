@@ -675,9 +675,9 @@ form textarea {
   .main {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: Space-between;
     height: 100vh;
-    gap: 0;
+    gap: 3em;
   }
 
   .about img {
