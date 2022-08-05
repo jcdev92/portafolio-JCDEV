@@ -23,11 +23,6 @@ body {
   color: #fff;
 }
 
-.wrapper {
-  position: relative;
-}
-
-
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -36,7 +31,6 @@ body {
 
 .nav-toggle, .nav-toggle-label {
   display: none;
-  position: fixed;
 }
 
 .brand {
@@ -72,7 +66,6 @@ body {
 .menu li {
   list-style: none;
 }
-
 .main {
   margin: 0 auto;
   width: 80vw;
@@ -86,6 +79,7 @@ body {
 .info {
   margin-top: 1.5em;
   color: #fff;
+  position: relative;
 }
 
 .info h1 {
@@ -135,19 +129,18 @@ body {
   border: 15px double darkcyan;
   box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
   transform-style: preserve-3d;
-  transition: transform 0.6s;
-  overflow: hidden;
-  cursor: pointer;
+  position: relative;
 }
 
 .image:hover {
-  transform: scale(1.15);
+  transform: scale(1.2);
+  transition: all 0.4s;
   box-shadow: none;
 }
 
 .image:hover .face.back{
   transform: none;
-  transition: transform 0.6s;
+  transition: all 0.4s;
 }
 
 .face {
@@ -155,13 +148,13 @@ body {
   height: 100%;
   background-size: cover;
   border-radius: 50%;
+  position: absolute;
   backface-visibility: hidden;
 }
 
 .face.front {
   background-image: url("https://media-exp2.licdn.com/dms/image/C5603AQGsLYJ2rOV5FQ/profile-displayphoto-shrink_800_800/0/1529948153231?e=1661990400&v=beta&t=3TBPcPuh5zTMQzoj58fL4xpgpgfDYO453WfGkHAFne4");
   transform: none;
-  position: absolute;
 }
 
 
@@ -173,7 +166,6 @@ body {
   justify-content: center;
   line-height:35px;
   transform: rotateX(180deg);
-  position: absolute;
 }
 
 .back a {
@@ -642,8 +634,6 @@ form textarea {
 
   .nav-toggle, .nav-toggle-label {
     display: flex;
-    position: fixed;
-    z-index: 1;
   }
 
   .navbar {
@@ -654,7 +644,6 @@ form textarea {
     margin-top: 0;
     padding-top: 0;
     position: fixed;
-    z-index: 1;
   }
   
   .nav-toggle-label i {
@@ -846,14 +835,16 @@ s
   }
 }
 
-@media (max-width: 368px) {
-
+@media (max-width: 330px) {
+  
   .nav-toggle-label i {
     padding: 0.5em;
     font-size: 1em;
-    color: rgba(255,255,0);}
+    color: rgba(255,255,0);
     position: fixed;
   }
+
+
 
   .skills__title {
     display: flex;
