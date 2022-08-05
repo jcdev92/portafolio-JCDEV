@@ -821,24 +821,15 @@ form textarea {
   .btn-submit {
     width: 60vw;
   }
-
+  
   .footer {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
     text-align: center;
   }
-s
-  .footer-content h2 {
-    font-size: 0.4em;
+  .footer h2 {
+    font-size: 1em;
   }
-  
-  .footer-content h5 {
-    font-size: 0.8em;
-  }
-}
 
-@media (max-width: 330px) {
+@media (max-width: 368px) {
   
   .nav-toggle-label i {
     padding: 0.5em;
