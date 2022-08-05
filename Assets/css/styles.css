@@ -66,6 +66,7 @@ body {
 .menu li {
   list-style: none;
 }
+
 .main {
   margin: 0 auto;
   width: 80vw;
@@ -129,7 +130,6 @@ body {
   border: 15px double darkcyan;
   box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
   transform-style: preserve-3d;
-  position: relative;
 }
 
 .image:hover {
@@ -140,7 +140,7 @@ body {
 
 .image:hover .face.back{
   transform: none;
-  transition: all 0.4s;
+  transition: transform 0.6s;
 }
 
 .face {
