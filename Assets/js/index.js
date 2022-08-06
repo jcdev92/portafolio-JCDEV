@@ -91,6 +91,7 @@ ScrollReveal().reveal('.about', {
     origin: 'left',
     distance: '500px',
     delay: 50,
+    mobile: false,
 })
 
 ScrollReveal().reveal('.skills', {
@@ -98,6 +99,7 @@ ScrollReveal().reveal('.skills', {
     origin: 'right',
     distance: '500px',
     delay: 50,
+    mobile: false,
 })
 
 ScrollReveal().reveal('.portfolio', {
@@ -105,6 +107,7 @@ ScrollReveal().reveal('.portfolio', {
     origin: 'bottom',
     distance: '500px',
     delay: 50,
+    mobile: false,
 })
 
 ScrollReveal().reveal('.contact', {
@@ -112,6 +115,7 @@ ScrollReveal().reveal('.contact', {
     origin: 'top',
     distance: '500px',
     delay: 50,
+    mobile: false,
 })
 
 
