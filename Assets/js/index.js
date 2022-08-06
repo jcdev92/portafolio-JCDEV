@@ -87,31 +87,31 @@ check.addEventListener('click', display);
 // /* scroll skills to left */
 
 ScrollReveal().reveal('.about', {
-    duration: 2000,
+    duration: 1000,
     origin: 'left',
     distance: '500px',
-    delay: 500,
+    delay: 50,
 })
 
 ScrollReveal().reveal('.skills', {
-    duration: 2000,
+    duration: 1000,
     origin: 'right',
     distance: '500px',
-    delay: 100,
+    delay: 50,
 })
 
 ScrollReveal().reveal('.portfolio', {
-    duration: 2000,
+    duration: 1000,
     origin: 'bottom',
     distance: '500px',
-    delay: 100,
+    delay: 50,
 })
 
 ScrollReveal().reveal('.contact', {
-    duration: 2000,
+    duration: 1000,
     origin: 'top',
     distance: '500px',
-    delay: 100,
+    delay: 50,
 })
 
 
